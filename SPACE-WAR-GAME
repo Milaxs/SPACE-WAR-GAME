@@ -36,7 +36,7 @@ YELLOW_SPACESHIP = pygame.transform.rotate(pygame.transform.scale(YELLOW_SPACESH
 RED_SPACESHIP_IMAGE =  pygame.image.load(r"C:\Users\OSAG 16\Desktop\HTML\python\spaceship_red.png")
 RED_SPACESHIP =  pygame.transform.rotate(pygame.transform.scale(RED_SPACESHIP_IMAGE, (SPACESHIP_WIDTH, SPACESHIP_HEIGHT)), 270)
 #7
-SPACE = pygame.transform.scale((pygame.image.load(r"C:\Users\OSAG 16\Desktop\HTML\python\space.png")),(WIDTH, HEIGHT))
+SPACE = pygame.transform.scale((pygame.image.load(r"C:\Users\OSAG 16\Desktop\HTML\python\space background.png")),(WIDTH, HEIGHT))
 #8
 def draw_window(red, yellow, red_bullets, yellow_bullets, red_health, yellow_health):
     #drawing the background
